@@ -8,9 +8,9 @@ public class HelloGit {
 
 		// Print Greeting
 
-		for (int i = 0; i <= names.length; i++) {
+		for (String name : names) {
 
-			System.out.format("Hello", names[i]);
+			System.out.format("Hello", name[i]);
 
 		}
 

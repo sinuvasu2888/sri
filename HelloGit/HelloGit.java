@@ -4,14 +4,13 @@ public class HelloGit {
 		// a greeting
 		// System.out.println("Hello,git!");
 
-		String[] names = { "Bibo", "Frodo", "Aragorn", "Legolas ", "Gandalf", "baron" };
+		String[] names = { "Bibo", "Frodo", "Aragorn", "Legolas ", "Gandalf" };
 
 		// Print Greeting
 
-		for (int i = 0; i <= names.length; i++) {
+		for (String name : names) {
 
-			System.out.format("Hello", names[i]);
-			System.out.println("hai")
+			System.out.format("Hello", names);
 
 		}
 
